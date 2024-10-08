@@ -2,26 +2,24 @@
 <html lang="en">
 
 <head>
-    <link rel="stylesheet" href="style.css">|
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha384-1H217gwSVyLSIfaLxHbE7dRb3v4mYCKbpQvzx0cegeju1MVsGrX5xXxAvs/HgeFs" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css" integrity="sha384-Nlo8b0yiGl7Dn+BgLn4mxhIIBU6We7aeeiulNCjHdUv/eKHx59s3anfSUjExbDxn" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js" integrity="sha384-Dziy8F2VlJQLMShA6FHWNul/veM9bCkRUaLqr199K94ntO5QUrLJBEbYegdSkkqX" crossorigin="anonymous"></script>
     <title>The collective knowledge that exists inside of the Orion Gregory mind</title>
 </head>
 
 <body>
-    <div id="container">
-        <h1 id="seName">The collective knowledge that exists inside of the Orion Gregory mind</h1>
-        <script type="text/javascript" src="./script.js"></script>
+    <h1 id="seName">The collective knowledge that exists inside of the Orion Gregory mind</h1>
+    <script type="text/javascript" src="./script.js"></script>
+    <input type="text" id="query" name="query">
+    <button id="searchButton" type="button" onclick="apiSearch(document.getElementById('query').value)">Search</button>
+    <button id="timeButton" type="button">Time</button>
+    <div id="searchResults">
 </body>
-<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
-<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
-<input type="text" id="query" name="query">
-<button id="searchButton" type="button" onclick="apiSearch(document.getElementById('query').value)">Search</button>
-<button id="timeButton" type="button">Time</button>
-<div id="searchResults">
 
 </div>
 <div id="time">
 
-</div>
 </div>
 </html>
