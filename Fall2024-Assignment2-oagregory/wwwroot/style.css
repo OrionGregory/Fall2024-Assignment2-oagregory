@@ -2,13 +2,14 @@ body {
     background-image: url('eva-darron-xovyUo9aJa4-unsplash.jpg');
     background-size: cover;
     background-position: center;
-    background-repeat: no-repeat; 
-    width: 100vw; 
+    background-repeat: no-repeat;
+    width: 100vw;
     height: 100vh;
     color: white;
     display: flex;
     justify-content: center;
     align-items: center;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
 }
 
 #searchResults, #time {
@@ -23,6 +24,7 @@ input[type=text] {
     box-sizing: border-box;
     border: 2px solid #ccc;
     border-radius: 4px;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
 }
 
 button {
@@ -33,4 +35,5 @@ button {
     color: white;
     cursor: pointer;
     border-radius: 4px;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
 }
