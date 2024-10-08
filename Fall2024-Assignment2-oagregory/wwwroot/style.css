@@ -1,0 +1,36 @@
+body {
+    background-image: url('eva-darron-xovyUo9aJa4-unsplash.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+    width: 100vw; 
+    height: 100vh;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#searchResults, #time {
+    visibility: none;
+}
+
+input[type=text] {
+    width: 50%;
+    max-width: 400px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    padding: 10px 30px;
+    margin-top: 10px;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+}
